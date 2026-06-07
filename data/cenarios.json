@@ -1,0 +1,63 @@
+{
+  "_comentario": "Cenarios pre-definidos (OPCIONAL) para demonstracoes reproduziveis no video. Use telemetria.carregar_cenario_json(nome) para ler valores fixos em vez de aleatorios.",
+  "normal": {
+    "cenario": "normal",
+    "satelite": "EnviroSat-1 (simulado)",
+    "orbita": "LEO heliossincrona ~ 628 km",
+    "temp_payload_c": 18.4,
+    "energia_bateria_pct": 87.2,
+    "sensor_termico": "operacional",
+    "buffer_imagens_pct": 32.5,
+    "precisao_geo_m": 9.1,
+    "focos_detectados": 1,
+    "janela_downlink_min": 22
+  },
+  "incendio_detectado": {
+    "cenario": "incendio_detectado",
+    "satelite": "EnviroSat-1 (simulado)",
+    "orbita": "LEO heliossincrona ~ 628 km",
+    "temp_payload_c": 24.7,
+    "energia_bateria_pct": 78.0,
+    "sensor_termico": "operacional",
+    "buffer_imagens_pct": 64.3,
+    "precisao_geo_m": 7.5,
+    "focos_detectados": 118,
+    "janela_downlink_min": 41
+  },
+  "temperatura_critica": {
+    "cenario": "temperatura_critica",
+    "satelite": "EnviroSat-1 (simulado)",
+    "orbita": "LEO heliossincrona ~ 628 km",
+    "temp_payload_c": 73.6,
+    "energia_bateria_pct": 61.4,
+    "sensor_termico": "degradado",
+    "buffer_imagens_pct": 48.9,
+    "precisao_geo_m": 21.0,
+    "focos_detectados": 3,
+    "janela_downlink_min": 28
+  },
+  "energia_baixa": {
+    "cenario": "energia_baixa",
+    "satelite": "EnviroSat-1 (simulado)",
+    "orbita": "LEO heliossincrona ~ 628 km",
+    "temp_payload_c": 12.2,
+    "energia_bateria_pct": 13.8,
+    "sensor_termico": "degradado",
+    "buffer_imagens_pct": 71.6,
+    "precisao_geo_m": 16.4,
+    "focos_detectados": 2,
+    "janela_downlink_min": 58
+  },
+  "perda_comunicacao": {
+    "cenario": "perda_comunicacao",
+    "satelite": "EnviroSat-1 (simulado)",
+    "orbita": "LEO heliossincrona ~ 628 km",
+    "temp_payload_c": 8.9,
+    "energia_bateria_pct": 52.0,
+    "sensor_termico": "offline",
+    "buffer_imagens_pct": 96.2,
+    "precisao_geo_m": 88.0,
+    "focos_detectados": 0,
+    "janela_downlink_min": 142
+  }
+}
