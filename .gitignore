@@ -16,3 +16,7 @@ env/
 
 # Notebooks de experimentacao (o produto final e um projeto .py)
 .ipynb_checkpoints/
+
+# Ferramentas auxiliares de geracao de assets e arquivos intermediarios
+scripts/
+assets/*.svg

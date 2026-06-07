@@ -139,7 +139,14 @@ def carregar_cenario_json(nome: str, caminho: str = "data/cenarios.json") -> dic
         cenarios = json.loads(path.read_text(encoding="utf-8"))
     except (json.JSONDecodeError, OSError):
         return None
-    return cenarios.get(nome)
+    dados = cenarios.get(nome)
+    if dados is not None:
+        # Garante metadados de coleta mesmo em cenarios fixos do JSON.
+        dados.setdefault(
+            "timestamp_utc",
+            datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M:%S UTC"),
+        )
+    return dados
 
 
 def formatar_legivel(dados: dict) -> str:
