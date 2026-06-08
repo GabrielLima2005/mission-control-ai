@@ -10,10 +10,10 @@ desmatamento e a incêndios.
 
 ## 👥 Integrantes
 
-- Nome Completo — RM: XXXXXX — Turma: XCCXX
-- _(adicione os demais integrantes, se dupla ou trio)_
+- Gabriel Lima da Silva — RM: _(preencher)_ — Turma: _(preencher)_
+- Nicolas Araujo de Oliveira — RM: _(preencher)_ — Turma: _(preencher)_
 
-**Modalidade:** _(Individual | Dupla | Trio)_
+**Modalidade:** Dupla
 
 ## 🛰️ O que o projeto faz
 
