@@ -44,7 +44,7 @@ brigada e analistas de compliance ambiental.
 
 ```bash
 # 1. Clone o repositório
-git clone https://github.com/<usuario>/mission-control-ai.git
+git clone https://github.com/GabrielLima2005/mission-control-ai.git
 cd mission-control-ai
 
 # 2. Crie e ative um ambiente virtual
