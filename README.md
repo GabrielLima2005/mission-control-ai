@@ -10,8 +10,8 @@ desmatamento e a incêndios.
 
 ## 👥 Integrantes
 
-- Gabriel Lima da Silva — RM: _(preencher)_ — Turma: _(preencher)_
-- Nicolas Araujo de Oliveira — RM: _(preencher)_ — Turma: _(preencher)_
+- Gabriel Lima da Silva — RM: _(568436)_ — Turma: _(1CCPR)_
+- Nicolas Araujo de Oliveira — RM: _(566780)_ — Turma: _(1CCPR)_
 
 **Modalidade:** Dupla
 
@@ -53,7 +53,7 @@ python -m venv .venv && source .venv/bin/activate   # Windows: .venv\Scripts\act
 # 3. Instale as dependências
 pip install -r requirements.txt
 
-# 4. Crie o arquivo .env na raiz (copie de .env.example) com:
+# 4. Crie o arquivo .env na raiz (copie de .env) com:
 #    OLLAMA_API_KEY=sua_chave_aqui
 
 # 5. Execute
