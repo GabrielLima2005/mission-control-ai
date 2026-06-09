@@ -126,6 +126,6 @@ reprodutibilidade no vídeo (`/cenario <nome>`).
 
 ## 🎬 Vídeo de demonstração
 
-🔗 [Assistir demonstração no YouTube](https://www.youtube.com/watch?v=SEU_ID_AQUI)
+🔗 [Assistir demonstração no YouTube](https://youtu.be/Djzl4g_YGbQ)
 
 > Configurado como "Não listado" no YouTube.
