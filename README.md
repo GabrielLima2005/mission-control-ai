@@ -54,7 +54,7 @@ python -m venv .venv && source .venv/bin/activate   # Windows: .venv\Scripts\act
 pip install -r requirements.txt
 
 # 4. Crie o arquivo .env na raiz (copie de .env) com:
-#    OLLAMA_API_KEY=29e4b61d6f7746b8957e0c137b4a5c38.TONdimglzNREs_fgPABUhQb6
+#    OLLAMA_API_KEY=sua_chave_aqui
 
 # 5. Execute
 python main.py
